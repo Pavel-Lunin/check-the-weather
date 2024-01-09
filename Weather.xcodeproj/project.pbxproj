@@ -16,6 +16,7 @@
 		E903A74B2B394AC300D89B0E /* WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E903A74A2B394AC300D89B0E /* WeatherTests.swift */; };
 		E903A7552B394AC300D89B0E /* WeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E903A7542B394AC300D89B0E /* WeatherUITests.swift */; };
 		E903A7572B394AC300D89B0E /* WeatherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E903A7562B394AC300D89B0E /* WeatherUITestsLaunchTests.swift */; };
+		E9DB4E102B3D5230006B2404 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DB4E0F2B3D5230006B2404 /* WeatherData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E903A7502B394AC300D89B0E /* WeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E903A7542B394AC300D89B0E /* WeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUITests.swift; sourceTree = "<group>"; };
 		E903A7562B394AC300D89B0E /* WeatherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E9DB4E0F2B3D5230006B2404 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E903A73C2B394AC300D89B0E /* Assets.xcassets */,
 				E903A73E2B394AC300D89B0E /* LaunchScreen.storyboard */,
 				E903A7412B394AC300D89B0E /* Info.plist */,
+				E9DB4E0F2B3D5230006B2404 /* WeatherData.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				E903A7382B394AC200D89B0E /* ViewController.swift in Sources */,
 				E903A7342B394AC200D89B0E /* AppDelegate.swift in Sources */,
+				E9DB4E102B3D5230006B2404 /* WeatherData.swift in Sources */,
 				E903A7362B394AC200D89B0E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -463,13 +467,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UC593NQP5W;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Weather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
